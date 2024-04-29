@@ -1,1 +1,19 @@
-/* Start coding here */
+.container {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: hsla(0, 50%, 100%, 0.5);
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+}
